@@ -10,7 +10,7 @@ List getCommonElements(List list1, List list2) {
 List getEvenElements(List list) =>
     list.where((element) => element % 2 == 0).toList();
 
-//4- first and last elements list
+//4- first and last elements of list
 List firstLast(List list) => [list.first, list.last];
 
 void main() {
